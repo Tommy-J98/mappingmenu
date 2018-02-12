@@ -3,6 +3,8 @@
     <string name="searchBtn">Search</string>
     <string name="latitude">Latitude</string>
     <string name="longitude">Longitude</string>
-    <string name="chooseMap">Choose Map</string>
-
-    </resources>
+    <string name="choosemap">Choose Map</string>
+    <string name="regularview">Regular View</string>
+    <string name="hikebikemapview">Hike Bike Map View</string>
+    <string name="selectmap">Select Map</string>
+</resources>

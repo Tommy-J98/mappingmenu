@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         {
             if(item.getItemId() == R.id.choosemap)
             {
+                Intent intent = new Intent(this,MapChooseActivity.class);
+                startActivity(intent);
                 // react to the menu item being selected...
                 return true;
             }
