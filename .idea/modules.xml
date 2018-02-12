@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping.iml" filepath="$PROJECT_DIR$/mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping.iml" filepath="$PROJECT_DIR$/mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mappingmenu.iml" filepath="$PROJECT_DIR$/mappingmenu.iml" />
     </modules>
   </component>
 </project>

@@ -12,7 +12,10 @@ import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;import android.view.View.OnClickListener;import android.view.View;import android.widget.TextView;
-import android.widget.EditText;import android.widget.Button;import android.view.View.OnClickListener;
+import android.widget.EditText;import android.widget.Button;import android.view.View.OnClickListener;import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+
 
 
 public class MainActivity extends AppCompatActivity implements OnClickListener
@@ -52,6 +55,23 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         double longitude = Double.parseDouble(lattxt.getText().toString());
         double latitude = Double.parseDouble(longtxt.getText().toString());
             mv.getController().setCenter(new GeoPoint(latitude,longitude));
+        }
+
+        public boolean onCreateOptionsMenu(Menu menu)
+        {
+            MenuInflater inflater=getMenuInflater();
+            inflater.inflate(R.menu.menu, menu);
+            return true;
+        }
+
+        public boolean onOptionsItemSelected(MenuItem item)
+        {
+            if(item.getItemId() == R.id.choosemap)
+            {
+                // react to the menu item being selected...
+                return true;
+            }
+            return false;
         }
 }
 
